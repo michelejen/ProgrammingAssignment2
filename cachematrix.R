@@ -6,7 +6,6 @@
 ## 2) get (get) the value of the matrix 
 ## 3) set (setinverse) the value of the inverse of the matrix
 ## 4) get (getinverse) the value of the inverse of the matrix
-
 makeCacheMatrix <- function(x = matrix()) {
   inverse_cache <- NULL
   set <- function(y) {
